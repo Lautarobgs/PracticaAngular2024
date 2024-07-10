@@ -5,12 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
+import { HomeComponent } from './components/pages/home/home.component';
+import { AboutmeComponent } from './components/pages/aboutme/aboutme.component';
+import { ProfileComponent } from './components/pages/profile/profile.component';
+import { ForumComponent } from './components/pages/forum/forum.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    AboutmeComponent,
+    ProfileComponent,
+    ForumComponent
   ],
   imports: [
     BrowserModule,

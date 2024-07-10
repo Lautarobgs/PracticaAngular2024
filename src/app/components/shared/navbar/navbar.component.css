@@ -10,19 +10,24 @@
 }
 .link{
 
-  padding: 1rem 1rem; /* Añade espaciado horizontal entre enlaces */
+  padding: 1rem 1rem; /*hitbox hehe */
   margin-right: 2rem;
   align-items: center;
-  color: white; /* Color de texto para mayor visibilidad */
-  text-decoration: none; /* Elimina el subrayado predeterminado */
+  color: white; /* no es redundante pq los a se ven violeta y queda horrible*/
+  border-radius: 0.4rem;
+  transition: background-color 0.2s ease;
+}
+.link:hover{
+  background-color: #666666;
 }
 .link:first-child{
   margin-left: 2rem;
 }
 .cabecera .logo {
   display: flex; /* Para asegurar que los elementos internos se ajusten bien */
+  padding: 1rem;
 }
 
 .cabecera .logo img {
-  max-height: 5.5rem; /* Ajusta el tamaño máximo de la imagen */
+  max-height: 5.5rem; /* img size*/
 }
