@@ -1,13 +1,12 @@
 
 
 .cabecera{
-  background-color: #0f4c75;
   overflow: hidden;
-  font-size: 3rem;
+  font-size: 2rem;
   height: 6rem;
   display: flex;
   align-items: center;
-
+  border-bottom: 0.01rem solid #333333;
 }
 .link{
 
