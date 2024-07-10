@@ -1,0 +1,31 @@
+.hero{
+    font-size: 2rem;
+    height: 80rem;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    display: flex; /* Añadido para usar flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    position: relative; 
+}
+
+.heroimg{
+    height: 100%;
+    width: 100%;
+    position: absolute; /* Para que la imagen ocupe todo el contenedor */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Para que el texto quede encima de la imagen * */
+}
+.textoH{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+}
+.desc {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Crea dos columnas de igual tamaño */
+    gap: 1rem; /* Espacio entre las cajas */
+    width: 50%; /* Ajusta el ancho según necesites */
+}
