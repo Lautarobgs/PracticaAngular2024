@@ -1,0 +1,26 @@
+
+
+.cabecera{
+  background-color: #0f4c75;
+  overflow: hidden;
+  font-size: 3rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+
+}
+.link{
+
+  padding: 1rem 1rem; /* Añade espaciado horizontal entre enlaces */
+  align-items: center;
+  color: white; /* Color de texto para mayor visibilidad */
+  text-decoration: none; /* Elimina el subrayado predeterminado */
+  margin-right: 1rem; /* Espacio entre enlaces */
+}
+.cabecera .logo {
+  display: flex; /* Para asegurar que los elementos internos se ajusten bien */
+}
+
+.cabecera .logo img {
+  max-height: 5.5rem; /* Ajusta el tamaño máximo de la imagen */
+}

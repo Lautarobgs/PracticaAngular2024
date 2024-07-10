@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    color: white;
+}
+
+*,
+*:after,
+*:before{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    background-color: #1b2838;
+}
+a{
+    text-decoration: none;
+}
