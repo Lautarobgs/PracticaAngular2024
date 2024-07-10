@@ -11,10 +11,13 @@
 .link{
 
   padding: 1rem 1rem; /* Añade espaciado horizontal entre enlaces */
+  margin-right: 2rem;
   align-items: center;
   color: white; /* Color de texto para mayor visibilidad */
   text-decoration: none; /* Elimina el subrayado predeterminado */
-  margin-right: 1rem; /* Espacio entre enlaces */
+}
+.link:first-child{
+  margin-left: 2rem;
 }
 .cabecera .logo {
   display: flex; /* Para asegurar que los elementos internos se ajusten bien */
