@@ -1,0 +1,25 @@
+footer{
+    display: flex;
+    border-top: 0.01rem solid #333333;
+    height: 35rem;
+}
+.footerlogo{
+    height: 25rem;
+    margin: 4rem 0rem 4rem 0rem;
+}
+.section{
+
+}
+
+.sect-title{
+    margin-top: 4rem;
+    font-size: 3rem;
+    display:flex;
+    justify-content: center;
+
+}
+
+.info{
+    padding: 2rem 7rem 0rem 7rem;
+    font-size:1.7rem;
+}
